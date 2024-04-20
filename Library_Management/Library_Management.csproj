@@ -61,6 +61,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Connection.cs" />
+    <Compile Include="Form_QuanLyTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_QuanLyTaiKhoan.Designer.cs">
+      <DependentUpon>Form_QuanLyTaiKhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_DangKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_DangKy.Designer.cs">
+      <DependentUpon>Form_DangKy.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_QuenMatKhau.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,10 +140,15 @@
     <Compile Include="Form_QuanLySach.Designer.cs">
       <DependentUpon>Form_QuanLySach.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modify.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TaiKhoan.cs" />
     <EmbeddedResource Include="Form_ChiTietHoaDon.resx">
       <DependentUpon>Form_ChiTietHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_DangKy.resx">
+      <DependentUpon>Form_DangKy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_DangNhap.resx">
       <DependentUpon>Form_DangNhap.cs</DependentUpon>
@@ -152,6 +170,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_QuanLySach.resx">
       <DependentUpon>Form_QuanLySach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_QuanLyTaiKhoan.resx">
+      <DependentUpon>Form_QuanLyTaiKhoan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_QuenMatKhau.resx">
       <DependentUpon>Form_QuenMatKhau.cs</DependentUpon>

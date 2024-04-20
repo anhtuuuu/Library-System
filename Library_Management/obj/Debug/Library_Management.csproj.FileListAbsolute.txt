@@ -20,3 +20,5 @@ D:\Learn\C#\Library_System\Library_Management\obj\Debug\Library_Management.Form_
 D:\Learn\C#\Library_System\Library_Management\bin\Debug\LibraryDB.mdf
 D:\Learn\C#\Library_System\Library_Management\bin\Debug\LibraryDB_log.ldf
 D:\Learn\C#\Library_System\Library_Management\obj\Debug\Library_Management.Form_QuenMatKhau.resources
+D:\Learn\C#\Library_System\Library_Management\obj\Debug\Library_Management.Form_DangKy.resources
+D:\Learn\C#\Library_System\Library_Management\obj\Debug\Library_Management.Form_QuanLyTaiKhoan.resources

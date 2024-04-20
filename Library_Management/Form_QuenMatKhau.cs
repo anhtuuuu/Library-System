@@ -35,42 +35,42 @@ namespace Library_Management
                 btn_GuiOTP.Enabled = false;
                 lbl_Counter.Text = counter.ToString();
                 timer_Counter.Start();
-                timer_OTP.Start();
+                timer_OTP.Start();  
 
-                //try
-                //{
-                //    otp = random.Next(10000, 100000);
-                //    var fromAddress = new MailAddress("anhtu18042004@gmail.com");
-                //    var toAddress = new MailAddress(txt_EmailDaDangKy.Text.Trim());
-                //    const string frompass = "qntg tnio ktji lgqk";
-                //    const string subject = "OTP code";
-                //    string body = otp.ToString();
+                try
+                {
+                    otp = random.Next(10000, 100000);
+                    var fromAddress = new MailAddress("anhtu18042004@gmail.com");
+                    var toAddress = new MailAddress(txt_EmailDaDangKy.Text.Trim());
+                    const string frompass = "qntg tnio ktji lgqk";
+                    const string subject = "OTP code";
+                    string body = otp.ToString();
 
-                //    var smtp = new SmtpClient
-                //    {
-                //        Host = "smtp.gmail.com",
-                //        Port = 587,
-                //        EnableSsl = true,
-                //        DeliveryMethod = SmtpDeliveryMethod.Network,
-                //        UseDefaultCredentials = false,
-                //        Credentials = new NetworkCredential(fromAddress.Address, frompass),
-                //        Timeout = 200000
-                //    };
+                    var smtp = new SmtpClient
+                    {
+                        Host = "smtp.gmail.com",
+                        Port = 587,
+                        EnableSsl = true,
+                        DeliveryMethod = SmtpDeliveryMethod.Network,
+                        UseDefaultCredentials = false,
+                        Credentials = new NetworkCredential(fromAddress.Address, frompass),
+                        Timeout = 200000
+                    };
 
-                //    using (var message = new MailMessage(fromAddress, toAddress)
-                //    {
-                //        Subject = subject,
-                //        Body = body
-                //    })
-                //    {
-                //        smtp.Send(message);
-                //    }
-                //    MessageBox.Show("OTP đã được gửi qua email");
-                //}
-                //catch (Exception ex)
-                //{
-                //    MessageBox.Show(ex.Message);
-                //}
+                    using (var message = new MailMessage(fromAddress, toAddress)
+                    {
+                        Subject = subject,
+                        Body = body
+                    })
+                    {
+                        smtp.Send(message);
+                    }
+                    MessageBox.Show("OTP đã được gửi qua email");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
             }
         }
 
@@ -126,6 +126,11 @@ namespace Library_Management
                 lbl_Counter.Text = "";
                 timer_Counter.Stop();
             }
+        }
+
+        private void Form_QuenMatKhau_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

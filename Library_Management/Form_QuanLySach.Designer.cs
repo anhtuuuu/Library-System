@@ -74,15 +74,11 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -257,7 +253,7 @@
             this.btn_TroLai.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_TroLai.ImageIndex = 9;
             this.btn_TroLai.ImageList = this.imgHinhAnh;
-            this.btn_TroLai.Location = new System.Drawing.Point(477, 235);
+            this.btn_TroLai.Location = new System.Drawing.Point(344, 235);
             this.btn_TroLai.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.btn_TroLai.MaximumSize = new System.Drawing.Size(50, 34);
             this.btn_TroLai.MinimumSize = new System.Drawing.Size(50, 34);
@@ -271,7 +267,7 @@
             this.btn_Thoat.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_Thoat.ImageIndex = 3;
             this.btn_Thoat.ImageList = this.imgHinhAnh;
-            this.btn_Thoat.Location = new System.Drawing.Point(557, 235);
+            this.btn_Thoat.Location = new System.Drawing.Point(424, 235);
             this.btn_Thoat.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
             this.btn_Thoat.MaximumSize = new System.Drawing.Size(50, 34);
             this.btn_Thoat.MinimumSize = new System.Drawing.Size(50, 34);
@@ -543,34 +539,6 @@
             this.pictureBox1.TabIndex = 83;
             this.pictureBox1.TabStop = false;
             // 
-            // button2
-            // 
-            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.ImageIndex = 8;
-            this.button2.ImageList = this.imgHinhAnh;
-            this.button2.Location = new System.Drawing.Point(408, 235);
-            this.button2.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
-            this.button2.MaximumSize = new System.Drawing.Size(50, 34);
-            this.button2.MinimumSize = new System.Drawing.Size(50, 34);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(50, 34);
-            this.button2.TabIndex = 84;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button3.ImageIndex = 7;
-            this.button3.ImageList = this.imgHinhAnh;
-            this.button3.Location = new System.Drawing.Point(336, 235);
-            this.button3.Margin = new System.Windows.Forms.Padding(5, 3, 5, 3);
-            this.button3.MaximumSize = new System.Drawing.Size(50, 34);
-            this.button3.MinimumSize = new System.Drawing.Size(50, 34);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(50, 34);
-            this.button3.TabIndex = 85;
-            this.button3.UseVisualStyleBackColor = true;
-            // 
             // label7
             // 
             this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -631,36 +599,12 @@
             this.label11.TabIndex = 90;
             this.label11.Text = "Làm mới";
             // 
-            // label12
-            // 
-            this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Times New Roman", 9.25F);
-            this.label12.Location = new System.Drawing.Point(342, 272);
-            this.label12.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(34, 19);
-            this.label12.TabIndex = 91;
-            this.label12.Text = "Lưu";
-            // 
-            // label13
-            // 
-            this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Times New Roman", 9.25F);
-            this.label13.Location = new System.Drawing.Point(404, 272);
-            this.label13.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(56, 19);
-            this.label13.TabIndex = 92;
-            this.label13.Text = "Độc giả";
-            // 
             // label14
             // 
             this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Times New Roman", 9.25F);
-            this.label14.Location = new System.Drawing.Point(470, 272);
+            this.label14.Location = new System.Drawing.Point(337, 272);
             this.label14.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(74, 19);
@@ -672,7 +616,7 @@
             this.label15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Times New Roman", 9.25F);
-            this.label15.Location = new System.Drawing.Point(563, 272);
+            this.label15.Location = new System.Drawing.Point(430, 272);
             this.label15.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(44, 19);
@@ -687,15 +631,11 @@
             this.ClientSize = new System.Drawing.Size(938, 568);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
@@ -784,15 +724,11 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
     }

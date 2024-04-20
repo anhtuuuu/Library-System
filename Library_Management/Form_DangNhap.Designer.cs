@@ -37,22 +37,27 @@
             this.chk_HienMatKhau = new System.Windows.Forms.CheckBox();
             this.btn_DangNhap = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.link_DangKy = new System.Windows.Forms.LinkLabel();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // txt_MatKhau
             // 
             this.txt_MatKhau.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txt_MatKhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_MatKhau.Location = new System.Drawing.Point(292, 252);
             this.txt_MatKhau.MinimumSize = new System.Drawing.Size(246, 41);
             this.txt_MatKhau.Multiline = true;
             this.txt_MatKhau.Name = "txt_MatKhau";
+            this.txt_MatKhau.PasswordChar = '*';
             this.txt_MatKhau.Size = new System.Drawing.Size(246, 41);
             this.txt_MatKhau.TabIndex = 20;
             // 
             // txt_TaiKhoan
             // 
             this.txt_TaiKhoan.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txt_TaiKhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_TaiKhoan.Location = new System.Drawing.Point(292, 190);
             this.txt_TaiKhoan.MinimumSize = new System.Drawing.Size(246, 41);
             this.txt_TaiKhoan.Multiline = true;
@@ -104,17 +109,19 @@
             this.chk_HienMatKhau.TabIndex = 15;
             this.chk_HienMatKhau.Text = "Hiển thị mật khẩu";
             this.chk_HienMatKhau.UseVisualStyleBackColor = true;
+            this.chk_HienMatKhau.CheckedChanged += new System.EventHandler(this.chk_HienMatKhau_CheckedChanged);
             // 
             // btn_DangNhap
             // 
             this.btn_DangNhap.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_DangNhap.Location = new System.Drawing.Point(343, 361);
+            this.btn_DangNhap.Location = new System.Drawing.Point(344, 377);
             this.btn_DangNhap.MinimumSize = new System.Drawing.Size(140, 50);
             this.btn_DangNhap.Name = "btn_DangNhap";
             this.btn_DangNhap.Size = new System.Drawing.Size(140, 50);
             this.btn_DangNhap.TabIndex = 14;
             this.btn_DangNhap.Text = "Đăng nhập";
             this.btn_DangNhap.UseVisualStyleBackColor = true;
+            this.btn_DangNhap.Click += new System.EventHandler(this.btn_DangNhap_Click);
             // 
             // pictureBox1
             // 
@@ -129,12 +136,35 @@
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
             // 
+            // link_DangKy
+            // 
+            this.link_DangKy.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.link_DangKy.AutoSize = true;
+            this.link_DangKy.Location = new System.Drawing.Point(465, 345);
+            this.link_DangKy.Name = "link_DangKy";
+            this.link_DangKy.Size = new System.Drawing.Size(56, 16);
+            this.link_DangKy.TabIndex = 21;
+            this.link_DangKy.TabStop = true;
+            this.link_DangKy.Text = "Đăng ký";
+            this.link_DangKy.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.link_DangKy_LinkClicked);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(305, 345);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(145, 16);
+            this.label1.TabIndex = 22;
+            this.label1.Text = "Bạn chưa có tài khoản?";
+            // 
             // Form_DangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.OldLace;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.link_DangKy);
             this.Controls.Add(this.txt_MatKhau);
             this.Controls.Add(this.txt_TaiKhoan);
             this.Controls.Add(this.lbl_MatKhau);
@@ -163,6 +193,8 @@
         private System.Windows.Forms.CheckBox chk_HienMatKhau;
         private System.Windows.Forms.Button btn_DangNhap;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.LinkLabel link_DangKy;
+        private System.Windows.Forms.Label label1;
     }
 }
 
